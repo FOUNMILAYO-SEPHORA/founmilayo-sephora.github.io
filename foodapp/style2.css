@@ -67,14 +67,25 @@ margin:120px;
 color:#fff;
 }
 
-  .vertical-bar{
-   height:100%;
-    background:#000;
-    top:0;
-    left:0;
-    position:absolute;
-    
-    }
+.vertical-bar{
+    height:100%;
+     background:#000;
+     top:0;
+     left:0;
+     position:absolute;
+     
+     }
+     .search-icon{
+         height:60%;
+         width:70px;
+     }
+       .search-icon .fa{
+           font-size:25px;
+           color:white;
+           display:block;
+           cursor:pointer;
+           margin:45px 23px;
+       }
 h1{
     color: rgb(255, 0, 153);
     text-align: center;
@@ -156,9 +167,28 @@ display:block;
         position: absolute;
         top: 20%;
         left: 20%;
-        display: flex;
-        
+        display: flex;  
     }
+
+    .vertical-bar{
+        height:50%;
+         background:#000;
+         top:0;
+         left:0;
+         position:absolute;
+         
+         }
+         .search-icon{
+             height:30%;
+             width:35px;
+         }
+           .search-icon .fa{
+               font-size:15px;
+               color:white;
+               display:block;
+               cursor:pointer;
+               margin:25px 13px;
+           }
     
     p{
         text-align: center;
