@@ -164,15 +164,15 @@ display:block;
        h1{
         color: rgb(255, 0, 153);
         text-align: center;
-        position: absolute;
+        position: relative;
         top: 20%;
         left: 20%;
-        display: flex;  
+        
     }
 
     .vertical-bar{
-        height:50%;
-         background:#000;
+        height:100%;
+         background:rgb(255, 0, 153);
          top:0;
          left:0;
          position:absolute;
