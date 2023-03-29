@@ -166,8 +166,8 @@ body{
        }
 
        .vertical-bar{
-        height:100%;
-         background:rgb(255, 0, 153);
+        height:auto;
+         background:#000;
          top:0;
          left:0;
          position:absolute;

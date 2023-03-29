@@ -148,8 +148,38 @@ body{
         z-index:2;
         transition:0.5s;
     }
+
+    .nav-links{
+        flex:1;
+    }
+    .nav-links ul{
+        margin-left:50px;
+        display:inline;
+    }
+    .nav-links ul li{
+        list-style:none;
+        display:inline-block;
+        padding:8px 25px;
+    }
+    .nav-links ul a{
+        color:white;
+        text-decoration:none;
+        font-size:13px;
+    }
+    .nav-links ul li::after{
+        content:"";
+        width:0;
+        height:2px;
+        background:rgb(255, 0, 153);
+        display:block;
+        margin:auto;
+        transition:.5s;
+    }
+    .nav-links ul li:hover::after{
+        width:100%
+    }
         .nav-links ul a{
-display:block;
+        display:block;
         }
        .nav-links .btn{
            float:none;
@@ -171,8 +201,8 @@ display:block;
     }
 
     .vertical-bar{
-        height:100%;
-         background:rgb(255, 0, 153);
+        height: auto;
+         background:#000;
          top:0;
          left:0;
          position:absolute;
