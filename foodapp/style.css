@@ -194,6 +194,7 @@ display:block;
                padding:0;
            }
            h2{
+            display: flex;
             font-size: 250px;
             font-family: 'Times New Roman';
             position: absolute;
@@ -205,6 +206,7 @@ display:block;
     }
 
     h2{
+        display: flex;
         font-size: 50px;
         font-family: 'Times New Roman';
         position: absolute;
