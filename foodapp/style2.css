@@ -181,19 +181,12 @@ body{
         color: rgb(255, 0, 153);
         text-align: center;
         position: relative;
-        top: 20%;
-        left: 20%;
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
         
     }
 
-    .vertical-bar{
-        height: 100px;
-         background:rgb(255, 0, 153);
-         top:0;
-         left:0;
-         position:absolute;
-         
-         }
          .search-icon{
              height:30%;
              width:35px;
