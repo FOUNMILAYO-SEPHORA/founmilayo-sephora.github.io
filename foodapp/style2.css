@@ -69,7 +69,7 @@ color:#fff;
 
 .vertical-bar{
     height:100%;
-     background:#000;
+     background:rgb(255, 0, 153);
      top:0;
      left:0;
      position:absolute;
@@ -132,7 +132,7 @@ body{
     }
     .nav-bar .fa{
         display:block;
-        color:white;
+        color:rgb(255, 0, 153);
         margin:10px 25px;
         font-size:22px;
         cursor:pointer;
@@ -201,8 +201,8 @@ body{
     }
 
     .vertical-bar{
-        height: auto;
-         background:#000;
+        height: 100px;
+         background:rgb(255, 0, 153);
          top:0;
          left:0;
          position:absolute;
