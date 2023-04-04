@@ -132,7 +132,7 @@ body{
     }
     .nav-bar .fa{
         display:block;
-        color:rgb(255, 0, 153);
+        color:#f6f2f2;
         margin:10px 25px;
         font-size:22px;
         cursor:pointer;
@@ -149,19 +149,8 @@ body{
         transition:0.5s;
     }
 
-    .nav-links{
-        flex:1;
-    }
-    .nav-links ul{
-        margin-left:50px;
-        display:inline;
-    }
-    .nav-links ul li{
-        list-style:none;
-        display:inline-block;
-        padding:8px 25px;
-    }
     .nav-links ul a{
+        display:block;
         color:white;
         text-decoration:none;
         font-size:13px;
@@ -178,9 +167,6 @@ body{
     .nav-links ul li:hover::after{
         width:100%
     }
-        .nav-links ul a{
-        display:block;
-        }
        .nav-links .btn{
            float:none;
            margin-left:25px;
@@ -231,3 +217,4 @@ body{
         transform: translate(-30%, -30%);
     }
     }
+
